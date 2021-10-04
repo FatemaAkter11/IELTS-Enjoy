@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Services from './components/Services/Services';
 import AboutUs from './components/AboutUs/AboutUs';
 import NotFound from './components/NotFound/NotFound';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/services">
             <Services></Services>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

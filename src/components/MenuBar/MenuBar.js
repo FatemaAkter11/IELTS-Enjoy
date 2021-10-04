@@ -21,8 +21,8 @@ const MenuBar = () => {
                                 <Link to="/services" className="items">
                                     <li>Services</li>
                                 </Link>
-                                <Link to="/teacher" className="items">
-                                    <li>Teachers</li>
+                                <Link to="/blog" className="items">
+                                    <li>Blog</li>
                                 </Link>
                             </ul>
                         </div>

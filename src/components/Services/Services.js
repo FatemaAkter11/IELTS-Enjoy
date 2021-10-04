@@ -11,14 +11,14 @@ const Services = () => {
         fetch('./Services.json')
             .then(res => res.json())
             .then(data => setServices(data));
-    }, [])
+    }, []);
+
 
     return (
         <div className="services-container" >
-            {/* header part added */}
+            {/* header added */}
             <Header></Header>
-            <div className="row">
-                <h1 className="fw-bold fs-1 mb-5 mt-5">Our More Services</h1>
+            <div className="row mt-5">
                 <div className="col-md-12">
                     {/* service data load */}
                     <div className="row ms-4">
@@ -26,13 +26,12 @@ const Services = () => {
                             services.map(service => <Service
                                 key={service.id}
                                 service={service}
-                            >
-                            </Service>)
+                            ></Service>)
                         }
                     </div>
                 </div>
             </div>
-            {/* footer part added */}
+            {/* footer added */}
             <Footer></Footer>
         </div>
     );
