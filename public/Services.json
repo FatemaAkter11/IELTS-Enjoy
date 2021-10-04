@@ -1,25 +1,25 @@
 [
     {
         "id": "121",
-        "name": "IELTS For Beginners",
+        "name": "Learn Spanish Language",
         "price": "35",
         "image": "https://www.openaccessgovernment.org/wp-content/uploads/2019/11/dreamstime_xxl_126998045.jpg"
     },
     {
         "id": "122",
-        "name": "IELTS For Kids",
+        "name": "Learn English Language",
         "price": "25",
         "image": "https://www.smartparents.sg/sites/default/files/image-10632998-39c952f85aeae0a485b203c8ccd5ce1c-kids-5-effective-ways-to-help-your-child-learn-faster-1_3.jpg"
     },
     {
         "id": "123",
-        "name": "IELTS For Buisness Purpose",
+        "name": "Learn German Language",
         "price": "40",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLQV1HkmuFbLzcPrWm-CDeJ-sJIS7gAyu9Q&usqp=CAU"
     },
     {
         "id": "181",
-        "name": "IELTS For Online Learning",
+        "name": "Learn japanese Language",
         "price": "30",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6uXvQDvyCDd9vTBB73B-F0pqFPKm9B-Jtg&usqp=CAU"
     },
