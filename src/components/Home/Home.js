@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css';
 import img from '../../images/home.jpg';
+import Service from '../Service/Service';
 
 const Home = () => {
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('./SingleService.json')
+            .then(res => res.json())
+            .then(data => setServices(data));
+    }, [])
+
     return (
         <div className="home-container">
             <div className="row my-5 home mx-auto">
@@ -19,6 +27,21 @@ const Home = () => {
             </div>
 
             {/* services area*/}
+            <div className="row">
+                <h1 className="fw-bold fs-1 mb-5">Services</h1>
+                <div className="col-md-12">
+                    {/* program data load */}
+                    <div className="row ms-4">
+                        {
+                            services.map(service => <Service
+                                key={service.id}
+                                service={service}
+                            >
+                            </Service>)
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
