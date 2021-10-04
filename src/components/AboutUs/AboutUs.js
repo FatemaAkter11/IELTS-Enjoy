@@ -37,7 +37,7 @@ const AboutUs = () => {
                     <img src={team3} alt="" />
                     <h5 className="mt-3">German Teacher</h5>
                     <h4>Pamela Reed</h4>
-                    <p><i class="fas fa-phone-volume text-danger"></i> 677870884545</p>
+                    <p><i className="fas fa-phone-volume text-danger"></i> 677870884545</p>
                 </div>
             </div>
         </div>

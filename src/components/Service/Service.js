@@ -2,7 +2,7 @@ import React from 'react';
 import './Service.css';
 
 const Service = (props) => {
-    console.log(props.service);
+    // console.log(props.service);
     //distructuring
     const { name, price, image } = props.service || {};
     return (

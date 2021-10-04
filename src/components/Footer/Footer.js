@@ -13,16 +13,16 @@ const Footer = () => {
                                 <h1>IELTS ENJOY</h1>
                                 <div className="icons-container d-flex text-center ">
                                     <div className="icon">
-                                        <i class="fab fa-instagram"></i>
+                                        <i className="fab fa-instagram"></i>
                                     </div>
                                     <div className="icon">
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </div>
                                     <div className="icon">
-                                        <i class="fab fa-facebook-messenger"></i>
+                                        <i className="fab fa-facebook-messenger"></i>
                                     </div>
                                     <div className="icon">
-                                        <i class="fab fa-youtube"></i>
+                                        <i className="fab fa-youtube"></i>
                                     </div>
                                 </div>
                                 <p className="mt-4 ">
@@ -56,7 +56,7 @@ const Footer = () => {
                                 />
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                                     <div className="footer-icon">
-                                        <i class="fas fa-phone-volume"></i>
+                                        <i className="fas fa-phone-volume"></i>
                                     </div>
                                     <div>
                                         <h5>+1 8 900 666 25 26</h5>
@@ -64,7 +64,7 @@ const Footer = () => {
                                 </div>
                                 <div className="map d-flex align-items-center justify-content-center">
                                     <div className="footer-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
+                                        <i className="fas fa-map-marker-alt"></i>
                                     </div>
                                     <div>
                                         <p>
