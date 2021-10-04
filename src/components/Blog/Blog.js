@@ -29,7 +29,7 @@ const Blog = () => {
                 </div>
             </div>
             {/* blog for teacher */}
-            <div className="row ">
+            <div className="row my-5 mx-auto">
                 <h2 className="text-center fw-bold fs-1 mb-4">Blog Our Teacher</h2>
                 <div className="col-md-4">
                     <img src={blog1} alt="" />
