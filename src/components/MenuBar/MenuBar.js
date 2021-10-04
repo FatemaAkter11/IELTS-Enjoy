@@ -18,8 +18,11 @@ const MenuBar = () => {
                                 <Link to="/about" className="items">
                                     <li>About us</li>
                                 </Link>
-                                <Link to="/service" className="items">
+                                <Link to="/services" className="items">
                                     <li>Services</li>
+                                </Link>
+                                <Link to="/teacher" className="items">
+                                    <li>Teachers</li>
                                 </Link>
                             </ul>
                         </div>
