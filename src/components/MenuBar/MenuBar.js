@@ -7,9 +7,9 @@ const MenuBar = () => {
         <div className="MenuBar-container">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-5">
+                    <div className="col-md-2">
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-10">
                         <div className="menu-container ">
                             <ul className="d-flex align-items-end justify-content-end">
                                 <Link to="/home" className="items">
@@ -19,7 +19,7 @@ const MenuBar = () => {
                                     <li>About us</li>
                                 </Link>
                                 <Link to="/service" className="items">
-                                    <li>Service</li>
+                                    <li>Services</li>
                                 </Link>
                             </ul>
                         </div>

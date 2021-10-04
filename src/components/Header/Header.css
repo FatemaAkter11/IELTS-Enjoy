@@ -1,12 +1,11 @@
 .header {
-    background-image: url(../../images/bg-banner.jpg),
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    height: 700px;
+    background-image: url(../../images/bg-banner.jpg), linear-gradient(#00000080, rgba(0, 0, 0, 0.5)) ; 
+    height: 600px;
     width: 100%;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+     background-position: center; 
   }
   .title {
     color: white;
@@ -14,11 +13,10 @@
     font-size: 59px;
   }
   .about-btn {
-    background-color: tomato;
     outline: none;
     border: none;
     font-size: 20px;
-    padding: 17px 34px;
+    padding: 10px 20px;
     color: white;
     border-radius: 10px;
   }

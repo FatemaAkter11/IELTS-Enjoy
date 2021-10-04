@@ -1,13 +1,15 @@
 .items {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
     list-style: none;
     margin-right: 30px;
-    font-size: 22px;
-    font-weight: 500;
-    color: rgb(218, 214, 214);
     cursor: pointer;
-    padding: 5px;
+    padding: 7px;
     text-decoration: none;
+    background-color: lightsalmon;
+    border-radius: 5px;
   }
   .items :hover {
-    color: rgb(194, 55, 55);
+    color: rgb(240, 234, 234);
   }
