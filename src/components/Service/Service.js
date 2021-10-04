@@ -10,9 +10,9 @@ const Service = (props) => {
             <div className="card shadow-lg p-2 rounded  border border-primary" style={{ width: '18rem', height: 'h-100 d-inline-block' }}>
                 <img src={image} className="service-img mx-auto" alt="..." />
                 <div className="mt-3">
-                    <h5 className="card-title"><span className="fw-bold text-center">Service:</span> {name}</h5>
+                    <h4 className="card-title"><span className="fw-bold text-center">Service:</span> {name}</h4>
                     <div className="text-center">
-                        <p><span className="fw-bold">Price:$</span>{price}</p>
+                        <h5><span className="fw-bold">Price:$</span>{price}</h5>
                     </div>
                 </div>
             </div>
