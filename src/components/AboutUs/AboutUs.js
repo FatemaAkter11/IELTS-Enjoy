@@ -4,10 +4,14 @@ import about from "../../images/about.png";
 import team1 from "../../images/our-team-1.jpg";
 import team2 from "../../images/our-team-2.jpg";
 import team3 from "../../images/our-team-3.jpg";
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 const AboutUs = () => {
     return (
         <div className="about-container">
+            {/* header part added */}
+            <Header></Header>
             <div className="row mt-5 mx-auto">
                 <div className="col-md-5 ms-4 mt-5">
                     <h1 className="fw-bold">The Best Way to Learn Any Foreign Language</h1>
@@ -40,6 +44,8 @@ const AboutUs = () => {
                     <p><i className="fas fa-phone-volume text-danger"></i> 677870884545</p>
                 </div>
             </div>
+            {/* footer part added */}
+            <Footer></Footer>
         </div>
     );
 };

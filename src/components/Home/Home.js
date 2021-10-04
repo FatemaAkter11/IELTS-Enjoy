@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import img from '../../images/home.jpg';
 import Service from '../Service/Service';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     const [services, setServices] = useState([]);
@@ -13,6 +15,8 @@ const Home = () => {
 
     return (
         <div className="home-container">
+            {/* header part */}
+            <Header></Header>
             <div className="row my-5 home mx-auto">
                 <div className="col-md-5 homeImg">
                     <img className="w-75 rounded" src={img} alt="" />
@@ -42,6 +46,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* footer part */}
+            <Footer></Footer>
         </div>
     );
 };
